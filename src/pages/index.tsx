@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import classNames from 'classnames'
 
 import { Container } from '../templates/Container'
 import { Header } from '../components/Header'
@@ -12,11 +13,14 @@ const Home: NextPage = () => {
     <>
       <Header title={title} description={description} />
 
-      <div className="bg-primaryDark py-4">
-        <Container>
-          <Title title="React TestVerse" />
-        </Container>
-      </div>
+      <div
+        className={classNames(
+          `bg-[url('/img/outer-space-background-freepik.jpg')]`,
+          'min-h-screen',
+          'bg-cover',
+          'bg-center',
+        )}
+      ></div>
     </>
   )
 }
