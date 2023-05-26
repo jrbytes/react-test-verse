@@ -1,9 +1,7 @@
 import type { NextPage } from 'next'
 import classNames from 'classnames'
 
-import { Container } from '../templates/Container'
 import { Header } from '../components/Header'
-import { Title } from '../components/Title'
 
 export const title = 'React TestVerse'
 export const description = 'Navegando pelo Universo de Testes no React'
