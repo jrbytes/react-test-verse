@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <>
       <Header title={title} description={description} />
 
-      <div
+      <main
         className={classNames(
           `bg-[url('/img/outer-space-background-freepik.jpg')]`,
           'min-h-screen',
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         )}
       >
         <Title title="Homepage" />
-      </div>
+      </main>
     </>
   )
 }
